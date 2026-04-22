@@ -16,7 +16,7 @@ const Intro = () => (
         </div>
       </div>
       <div className="intro-portrait">
-        <Placeholder label="Jo · on set" src="images/jo-btstyle.jpg" pos="center 20%" />
+        <Placeholder label="Jo · on set" src="images/jo-studio.jpg" pos="center 25%" />
         <div className="intro-caption">
           <span>Fig. 01</span>
           <span>Jo, on floor styling</span>
