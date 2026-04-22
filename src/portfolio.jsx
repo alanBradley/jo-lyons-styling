@@ -26,6 +26,15 @@ const PORTFOLIO = [
     src: 'images/portfolio/blazer-tulle.jpg', pos: 'center 30%' },
   { id: 12, cat: 'occasion', label: 'Shearling · portrait', credit: 'Styling · Jo Lyons', size: 'p-square',
     src: 'images/portfolio/dublin-shearling.jpg', pos: 'center 20%' },
+  // Editorial · The Costume Room series
+  { id: 13, cat: 'editorial', label: 'The Costume Room · calm', credit: 'Styling · Jo Lyons', size: 'p-square',
+    src: 'images/portfolio/costume-room-calm.jpg', pos: 'center 30%' },
+  { id: 14, cat: 'editorial', label: 'The Costume Room · pair', credit: 'Styling · Jo Lyons', size: 'p-tall',
+    src: 'images/portfolio/costume-room-pair.jpg', pos: 'center 25%' },
+  { id: 15, cat: 'editorial', label: 'The Costume Room · ensemble', credit: 'Styling · Jo Lyons', size: 'p-med',
+    src: 'images/portfolio/costume-room-four.jpg', pos: 'center 20%' },
+  { id: 16, cat: 'editorial', label: 'The Costume Room · portrait', credit: 'Styling · Jo Lyons', size: 'p-portrait',
+    src: 'images/portfolio/costume-room-portrait.jpg', pos: 'center 20%' },
 ];
 
 const Portfolio = () => {
