@@ -19,9 +19,9 @@ const TESTIMONIALS = [
     quote: "Jo has an innate sense of style. It is who she is. Styling a client, merchandising the floor, or even her personal style, the result is always effortless. Jo exudes warmth and kindness. Every client styling session felt personal and special.",
     name: 'Sorcha Gillett',
     context: 'CEO · The White & Gold',
-    img: 'In store · styling session',
-    imgSrc: 'images/jo-btstyle.jpg',
-    imgPos: 'center 20%',
+    img: 'Bridal styling · evening',
+    imgSrc: 'images/bride-candlelit.jpg',
+    imgPos: 'center 25%',
   },
 ];
 
