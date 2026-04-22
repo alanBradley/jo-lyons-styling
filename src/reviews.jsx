@@ -2,7 +2,7 @@ const REVIEWS = [
   {
     stars: 5,
     quote: "Jo understood the dress I was imagining before I'd fully described it. Not a single fuss on the morning — she was the calmest person in the room.",
-    name: 'Alba M.',
+    name: 'Louise O’D',
     meta: 'Wedding · Frigiliana · June 2025',
   },
   {
