@@ -17,8 +17,8 @@ const PORTFOLIO = [
     src: 'images/portfolio/editorial-turban.jpg', pos: 'center 25%' },
   { id: 8, cat: 'editorial', label: 'AW16 · knitwear', credit: 'Styling · Jo Lyons', size: 'p-med',
     src: 'images/portfolio/knit-halter.jpg', pos: 'center 20%' },
-  { id: 9, cat: 'editorial', label: 'Dublin Women', credit: 'Styling · Jo Lyons', size: 'p-small',
-    src: 'images/portfolio/dublin-women-pink.jpg', pos: 'center 40%' },
+  { id: 9, cat: 'editorial', label: 'Billie Eilish · tour', credit: 'Styling · Jo Lyons', size: 'p-small',
+    src: 'images/portfolio/billie-eilish-tour.jpg', pos: 'center 30%' },
   // Occasion / personal
   { id: 10, cat: 'occasion', label: 'Black tie · statement', credit: 'Styling · Jo Lyons', size: 'p-med',
     src: 'images/portfolio/portrait-earrings.jpg', pos: 'center 25%' },
