@@ -1,21 +1,21 @@
 const REVIEWS = [
   {
     stars: 5,
-    quote: "Jo understood the dress I was imagining before I'd fully described it. Not a single fuss on the morning — she was the calmest person in the room.",
-    name: 'Louise O’D',
-    meta: 'Wedding · Frigiliana · June 2025',
+    quote: "From the first fitting, Jo made me feel like myself, only styled. She's strong on direction but so easy to talk to. Everything felt personal, never performed.",
+    name: 'Sinead',
+    meta: 'Wedding',
   },
   {
     stars: 5,
-    quote: "We flew her in for the fittings and she stayed two days. My bridesmaids have never looked more like themselves. I'll be sending every friend her way.",
-    name: "Éadaoin O'R.",
-    meta: 'Wedding · Cortijo Bravo · September 2025',
+    quote: "Jo understood what I wanted without me having to explain it. Her styling is confident, the atmosphere soft. I felt comfortable, considered, and completely myself all day.",
+    name: 'Kerry',
+    meta: 'Wedding',
   },
   {
     stars: 5,
-    quote: "A quiet, thoughtful eye. Jo reworked a family dress my mother wore in 1982 and made it feel entirely mine. Worth every mile she travelled.",
-    name: 'Isabella P.',
-    meta: 'Wedding · Nerja · May 2024',
+    quote: "Jo's styling eye is one of the strongest we've worked with. Warm, personal, and quietly decisive. Our brides always feel comfortable in her hands. An easy recommendation.",
+    name: 'White and Gold Bridal',
+    meta: 'Bridal boutique',
   },
 ];
 
