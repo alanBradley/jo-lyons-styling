@@ -5,9 +5,11 @@ const Philosophy = () => (
       <h2>I don't <em>transform.</em><br/>I <em>translate.</em></h2>
     </div>
     <div className="philosophy-body">
-      <p className="philosophy-quote">
-        The dress already exists. The bride already exists. My job is to make them agree. Quietly. Unhurriedly. In a language that reads on camera, in the church, and in ten years on the mantelpiece.
-      </p>
+      <div className="philosophy-quote">
+        <p>The dress matters. But the woman wearing it matters more.</p>
+        <p>My work is about understanding the shape, energy, mood, and meaning of the moment — then bringing everything into quiet agreement.</p>
+        <p>Nothing forced. Nothing overworked. Just styling that feels natural on the day, beautiful on camera, and timeless in the years that follow.</p>
+      </div>
       <div className="philosophy-tenets">
         <div className="tenet">
           <div className="tenet-num">I.</div>

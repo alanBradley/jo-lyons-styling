@@ -638,6 +638,24 @@ section { position: relative; }
   max-width: 36ch;
 }
 
+/* Approach section: centered, single-column layout */
+#approach .section-head {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  text-align: center;
+}
+#approach .section-head .eyebrow { padding-top: 0; }
+#approach .section-head h2 { max-width: 18ch; margin: 0 auto; }
+#approach .philosophy-body { margin: 0 auto; max-width: 900px; }
+#approach .philosophy-quote { text-align: center; }
+#approach .philosophy-quote p + p { margin-top: 18px; }
+#approach .philosophy-tenets { text-align: left; }
+
+@media (max-width: 760px) {
+  #approach .philosophy-quote { text-align: left; }
+  #approach .philosophy-quote p + p { margin-top: 14px; }
+}
+
 /* ============================================================
    Portfolio
    ============================================================ */
