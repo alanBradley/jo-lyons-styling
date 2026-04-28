@@ -51,8 +51,8 @@ const Portfolio = () => {
       <div className="portfolio-head">
         <div>
           <div className="eyebrow" style={{ marginBottom: 14 }}>05 · Selected work</div>
-          <h2 className="display" style={{ fontSize: 'clamp(40px, 5vw, 68px)', maxWidth: '20ch' }}>
-            A few years in <em style={{ color: 'var(--accent)' }}>fittings,</em><br/>fabrics, and quiet good days.
+          <h2 className="display" style={{ fontSize: 'clamp(40px, 5vw, 68px)', maxWidth: '22ch' }}>
+            Styling that feels effortless on the day — <em style={{ color: 'var(--accent)' }}>and timeless after it.</em>
           </h2>
         </div>
         <div className="portfolio-filters">
