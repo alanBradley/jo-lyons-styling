@@ -40,7 +40,7 @@ const Services = () => (
   <section className="section section-deep" id="services">
     <div className="section-head">
       <div className="eyebrow">02 · Ways to work together</div>
-      <h2>Bridal first. <em>Everything else follows.</em></h2>
+      <h2>For brides, parties, and anyone <em>who wants to feel seen, styled, and completely themselves.</em></h2>
     </div>
     <div className="services-grid">
       {SERVICES.map((s) => (
