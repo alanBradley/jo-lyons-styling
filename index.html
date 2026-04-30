@@ -6,11 +6,18 @@
 <title>Jo Lyons — Stylist · Bridal & Bridesmaids</title>
 <link rel="icon" type="image/png" href="images/favicon.png" />
 <link rel="apple-touch-icon" href="images/favicon.png" />
-<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) — Consent Mode v2 defaults to denied until user accepts -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CL9XHZGNM0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    wait_for_update: 500
+  });
   gtag('js', new Date());
   gtag('config', 'G-CL9XHZGNM0');
 </script>
@@ -1635,6 +1642,7 @@ section { position: relative; }
 </head>
 <body>
 <div id="root"></div>
+<div id="gdpr-root"></div>
 
 <script>
 // Tweakable defaults — host can rewrite this JSON block on disk
@@ -1662,6 +1670,7 @@ window.__TWEAKS__ = /*EDITMODE-BEGIN*/{
 <script type="text/babel" src="src/footer.jsx"></script>
 <script type="text/babel" src="src/booking.jsx"></script>
 <script type="text/babel" src="src/tweaks.jsx"></script>
+<script type="text/babel" src="src/gdpr.jsx"></script>
 <script type="text/babel" src="src/app.jsx"></script>
 </body>
 </html>
