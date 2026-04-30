@@ -7,8 +7,7 @@ const Intro = () => (
     <div className="intro-grid">
       <div>
         <div className="intro-body">
-          <p>I've spent the last decade styling brides, bridal parties, and the shoots that dress them. On set with designers and photographers. In fitting rooms with the women who'll actually wear the clothes.</p>
-          <p>My work isn't about transformation. It's about reading the person, the dress, and the day. Making all three agree. Quietly, without fuss, so you don't have to think about any of it on the morning.</p>
+          <p>With a decade of experience, I've had the privilege of styling countless brides, their parties, and numerous shoots. From the collaborative energy on set with designers to the intimate moments in fitting rooms, my focus has always been on the women I dress.</p>
         </div>
         <div className="intro-sig">
           <div className="sig">Jo</div>
