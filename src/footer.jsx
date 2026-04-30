@@ -16,7 +16,7 @@ const Footer = ({ onBook }) => (
         <div className="col-title">Studio</div>
         <p>By appointment</p>
         <p>Nerja · Málaga · Spain</p>
-        <a href="mailto:hello@jolyons.es">hello@jolyons.es</a>
+        <a href="mailto:hello@jolyons.com">hello@jolyons.com</a>
         <a href="tel:+34000000000">Available worldwide</a>
       </div>
       <div className="footer-col">
