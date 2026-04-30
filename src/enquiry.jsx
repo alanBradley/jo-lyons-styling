@@ -18,9 +18,33 @@ const Enquiry = () => {
     return Object.keys(e).length === 0;
   };
 
+  const SERVICE_LABELS = {
+    bridal: 'Bridal styling',
+    bridesmaids: 'Bridesmaids / bridal party',
+    editorial: 'Editorial / campaign',
+    occasion: 'Occasion / MOB',
+    personal: 'Personal styling',
+    other: 'Something else',
+  };
+
   const submit = (e) => {
     e.preventDefault();
-    if (validate()) setSubmitted(true);
+    if (!validate()) return;
+
+    // Build a natural WhatsApp message from the form fields
+    const lines = [];
+    lines.push(`Hi Jo, my name is ${form.name}.`);
+    lines.push('');
+    if (form.service) lines.push(`I\'m enquiring about: ${SERVICE_LABELS[form.service] || form.service}`);
+    if (form.date) lines.push(`Date: ${form.date}`);
+    if (form.location) lines.push(`Location: ${form.location}`);
+    if (form.message) { lines.push(''); lines.push(form.message); }
+    if (form.referrer) { lines.push(''); lines.push(`Found you via: ${form.referrer}`); }
+    lines.push('');
+    lines.push(`Best, ${form.name.split(' ')[0]}`);
+
+    openWhatsApp(lines.join('\n'));
+    setSubmitted(true);
   };
 
   return (

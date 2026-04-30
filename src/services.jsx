@@ -10,6 +10,7 @@ const SERVICES = [
     list: ['Dress sourcing & fittings', 'Second looks & going away', 'Accessories, shoes, cover ups', 'Day of attendance (optional)'],
     price: 'TBC',
     tag: 'Specialist',
+    waMsg: "Hi Jo, I'm interested in your Bridal Styling service. I'd love to find out more and see if we'd be a good fit.",
   },
   {
     num: '02',
@@ -22,6 +23,7 @@ const SERVICES = [
     list: ['Mixed silhouettes', 'Coordinated across sizes & shapes', 'MOB, MOG & flower girls', 'Group fittings in studio or online'],
     price: 'TBC',
     tag: 'Specialist',
+    waMsg: "Hi Jo, I'm interested in Bridesmaids & Bridal Party styling. I'd love to find out more and chat through what we need.",
   },
   {
     num: '03',
@@ -33,6 +35,7 @@ const SERVICES = [
     body: "Shoots, lookbooks, campaigns. And the occasions in between. A calm, collaborative hand on set. A specialist eye off it.",
     list: ['Editorial & campaign styling', 'Lookbooks & designer shoots', 'Occasion & MOB styling', 'Personal styling by referral'],
     price: 'TBC',
+    waMsg: "Hi Jo, I'm interested in your Editorial & Occasion styling. I'd love to find out more about working together.",
   },
 ];
 
@@ -51,7 +54,7 @@ const Services = () => (
           <p className="svc-body">{s.body}</p>
           <ul className="svc-list">{s.list.map((l) => <li key={l}>{l}</li>)}</ul>
           <div className="svc-price"><span>{s.price}</span><span>→</span></div>
-          <a className="svc-link" href="#enquire" onClick={(e) => { e.preventDefault(); document.getElementById('enquire')?.scrollIntoView({ behavior: 'smooth' }); }}>
+          <a className="svc-link" href="#enquire" onClick={(e) => { e.preventDefault(); openWhatsApp(s.waMsg); }}>
             Learn more <span>→</span>
           </a>
         </div>

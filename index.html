@@ -1645,6 +1645,12 @@ section { position: relative; }
 <div id="gdpr-root"></div>
 
 <script>
+// WhatsApp helper — used across all CTAs and the enquiry form
+window.JO_WA = '34642562758';
+window.openWhatsApp = function(msg) {
+  window.open('https://wa.me/' + window.JO_WA + '?text=' + encodeURIComponent(msg), '_blank');
+};
+
 // Tweakable defaults — host can rewrite this JSON block on disk
 window.__TWEAKS__ = /*EDITMODE-BEGIN*/{
   "heroLayout": "full-bleed",

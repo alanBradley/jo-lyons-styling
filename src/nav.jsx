@@ -45,7 +45,7 @@ const Nav = ({ onBook, activeSection, heroLayout }) => {
             {l.label}
           </a>
         ))}
-        <button className="nav-cta" onClick={onBook}>
+        <button className="nav-cta" onClick={() => openWhatsApp('Hi Jo, I\'d like to book a styling consultation. Could we arrange a time to chat?')}>
           <span className="dot" />
           Book a consultation
         </button>

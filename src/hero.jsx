@@ -30,7 +30,7 @@ const HeroFull = ({ onBook }) => (
           I'm Jo. I style bridal parties, editorial shoots, and occasion looks. Quietly. Carefully. Always in service of the person wearing them.
         </p>
         <div className="hero-ctas">
-          <button className="btn btn-ghost-light" onClick={onBook}>
+          <button className="btn btn-ghost-light" onClick={() => openWhatsApp('Hi Jo, I\'d like to book a styling consultation. Could we arrange a time to chat?')}>
             Book a consultation <ArrowRight />
           </button>
           <a className="btn btn-ghost-light" href="#work" onClick={(e) => { e.preventDefault(); document.getElementById('work')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>
@@ -53,7 +53,7 @@ const HeroSplit = ({ onBook }) => (
         I work with brides and their parties. From first fitting to the last photograph. A calm, intuitive eye for form, proportion, and the quiet confidence of wearing the right thing.
       </p>
       <div className="hero-ctas">
-        <button className="btn btn-primary" onClick={onBook}>
+        <button className="btn btn-primary" onClick={() => openWhatsApp('Hi Jo, I\'d like to book a styling consultation. Could we arrange a time to chat?')}>
           Book a consultation <ArrowRight />
         </button>
         <a className="btn btn-ghost" href="#work" onClick={(e) => { e.preventDefault(); document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' }); }}>
@@ -91,7 +91,7 @@ const HeroType = ({ onBook }) => (
         <div style={{ fontSize: 15 }}>Bridal · Bridesmaids · Editorial · Personal</div>
       </div>
       <div className="hero-ctas" style={{ margin: 0, justifyContent: 'flex-end' }}>
-        <button className="btn btn-primary" onClick={onBook}>
+        <button className="btn btn-primary" onClick={() => openWhatsApp('Hi Jo, I\'d like to book a styling consultation. Could we arrange a time to chat?')}>
           Book a consultation <ArrowRight />
         </button>
       </div>
