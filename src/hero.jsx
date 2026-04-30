@@ -21,9 +21,10 @@ const HeroFull = ({ onBook }) => (
     </div>
     <div className="hero-bottom">
       <h1>
-        A stylist for brides,<br/>
+        Your stylist for brides,<br/>
         bridesmaids, and the <em>women</em><br/>
-        who stand with them.
+        who ensure your day is perfectly supported<br/>
+        and beautifully styled.
       </h1>
       <div>
         <p className="hero-lede">
