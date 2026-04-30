@@ -125,9 +125,13 @@ function CategoryRow({ label, description, checked, onChange, always }) {
 }
 
 // ── Main banner ───────────────────────────────────────────────
-function CookieBanner({ initial, onSave }) {
-  const [managing, setManaging] = useState(false);
-  const [prefs, setPrefs] = useState({ analytics: false, marketing: false });
+function CookieBanner({ initial, onSave, currentConsent }) {
+  // When re-opening from icon, go straight to manage view with current values pre-loaded
+  const [managing, setManaging] = useState(!initial);
+  const [prefs, setPrefs] = useState({
+    analytics: currentConsent?.analytics ?? false,
+    marketing: currentConsent?.marketing ?? false,
+  });
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -434,9 +438,9 @@ function GdprManager() {
     return <CookieBanner initial onSave={handleSave} />;
   }
 
-  // Re-managing preferences
+  // Re-managing preferences — pass current consent so toggles show correct state
   if (showPanel) {
-    return <CookieBanner onSave={handleSave} />;
+    return <CookieBanner onSave={handleSave} currentConsent={consent} />;
   }
 
   // Consented — show icon only
