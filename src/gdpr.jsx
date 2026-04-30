@@ -16,10 +16,14 @@ function loadConsent() {
 }
 
 function persistConsent(prefs) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({
-    ...prefs,
-    timestamp: new Date().toISOString()
-  }));
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      ...prefs,
+      timestamp: new Date().toISOString()
+    }));
+  } catch (e) {
+    // Storage unavailable (private browsing, quota exceeded) — UI still updates
+  }
 }
 
 function applyGtagConsent(prefs) {
@@ -135,8 +139,8 @@ function CookieBanner({ initial, onSave }) {
   function commit(p) {
     const full = { necessary: true, analytics: !!p.analytics, marketing: !!p.marketing };
     persistConsent(full);
-    applyGtagConsent(full);
-    onSave(full);
+    try { applyGtagConsent(full); } catch(e) {}
+    onSave(full); // always fires — UI closes regardless of storage/gtag errors
   }
 
   const acceptAll  = () => commit({ analytics: true,  marketing: true  });
