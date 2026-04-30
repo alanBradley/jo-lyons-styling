@@ -1,32 +1,22 @@
 const Philosophy = () => (
   <section className="section section-ink" id="approach">
     <div className="section-head">
-      <div className="eyebrow">03 · On the approach</div>
-      <h2>I don't <em>transform.</em><br/>I <em>translate.</em></h2>
+      <div className="eyebrow">03 · In her words</div>
+      <h2>The best stylist<br/>I've <em>ever</em> worked with.</h2>
     </div>
-    <div className="philosophy-body">
-      <div className="philosophy-quote">
-        <p>The dress matters. But the woman wearing it matters more.</p>
-        <p>My work is about understanding the shape, energy, mood, and meaning of the moment — then bringing everything into quiet agreement.</p>
-        <p>Nothing forced. Nothing overworked. Just styling that feels natural on the day, beautiful on camera, and timeless in the years that follow.</p>
-      </div>
-      <div className="philosophy-tenets">
-        <div className="tenet">
-          <div className="tenet-num">I.</div>
-          <h4>Proportion <em>first</em></h4>
-          <p>Form, proportion, presence. I look at the body in the room before I look at anything hanging on a rail. The dress follows the woman.</p>
-        </div>
-        <div className="tenet">
-          <div className="tenet-num">II.</div>
-          <h4>Never <em>overworked</em></h4>
-          <p>A considered edit beats a styled one, every time. I'd rather take three things off than put a fourth one on.</p>
-        </div>
-        <div className="tenet">
-          <div className="tenet-num">III.</div>
-          <h4>Calm on <em>the day</em></h4>
-          <p>Bridal weeks are loud. My job is to be the quiet part. No drama. No theatre. Just the right thing, ready, on time.</p>
-        </div>
-      </div>
+    <div className="featured-testimonial">
+      <figure className="ft-portrait">
+        <img src="images/blanaid.jpg" alt="Blanaid Hennessy" />
+        <figcaption className="ft-caption">
+          <span className="ft-name">Blanaid Hennessy</span>
+          <span className="ft-bio">Irish entrepreneur, stylist, and the founder of the fashion brand Folkster.</span>
+        </figcaption>
+      </figure>
+      <blockquote className="ft-quote">
+        <p>Without doubt, the best stylist I've ever had the pleasure of working with. She has an incredible ability to make people feel instantly comfortable and confident, which is such a rare gift.</p>
+        <p>Her understanding of fashion goes far beyond trends — she truly knows what works for different body shapes and how to bring out the best feeling in every woman she works with.</p>
+        <p>She is also exceptionally generous with her guidance and advice, always going above and beyond to help. Kind, intuitive, and an absolute pleasure to work with — I genuinely couldn't recommend her more highly.</p>
+      </blockquote>
     </div>
   </section>
 );
