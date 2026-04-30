@@ -1586,8 +1586,22 @@ section { position: relative; }
    Responsive — abbreviated (landing page designed for desktop hi-fi)
    ============================================================ */
 @media (max-width: 960px) {
-  .nav { grid-template-columns: auto 1fr; }
+  .nav {
+    grid-template-columns: auto 1fr;
+    padding: 12px var(--gutter);
+    gap: 12px;
+  }
   .nav-left { display: none; }
+  .nav-right { gap: 14px; }
+  .nav-right .nav-link { font-size: 12px; }
+  .nav-brand-logo { height: 40px; }
+  .nav.scrolled .nav-brand-logo { height: 34px; }
+  .nav-cta {
+    padding: 8px 12px;
+    font-size: 11.5px;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
   .hero-split { grid-template-columns: 1fr; }
   .hero-full .hero-bottom { grid-template-columns: 1fr; }
   .hero-type .hero-footer { grid-template-columns: 1fr; }
@@ -1619,6 +1633,14 @@ section { position: relative; }
 
 /* Phones (narrow) */
 @media (max-width: 560px) {
+  /* Slim nav: drop secondary links, keep brand + CTA */
+  .nav { padding: 10px 16px; gap: 8px; }
+  .nav-right .nav-link { display: none; }
+  .nav-brand-logo { height: 36px; }
+  .nav.scrolled .nav-brand-logo { height: 30px; }
+  .nav-cta { padding: 7px 11px; font-size: 11px; }
+  .nav-cta .dot { width: 5px; height: 5px; }
+
   .portfolio-head { flex-direction: column; align-items: stretch; }
   .portfolio-filters { flex-wrap: wrap; }
   .portfolio-grid { display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: auto; gap: 10px; }
