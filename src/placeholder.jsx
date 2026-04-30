@@ -4,7 +4,7 @@ const Placeholder = ({ label, variant = '', className = '', style = {}, src, alt
   if (src) {
     return (
       <div className={cls} style={style}>
-        <img src={src} alt={alt || label || ''} style={{ objectPosition: pos || 'center center' }} />
+        <img src={src} alt={alt || label || ''} loading="lazy" decoding="async" style={{ objectPosition: pos || 'center center' }} />
       </div>
     );
   }
