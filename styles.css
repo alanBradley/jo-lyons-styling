@@ -720,6 +720,15 @@ section { position: relative; }
   color: rgba(241, 234, 221, 0.88);
   max-width: 32ch;
 }
+.ft-photo-credit {
+  display: block;
+  font-family: var(--f-body);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(241, 234, 221, 0.55);
+  margin-top: 8px;
+}
 
 .ft-quote {
   margin: 0;
