@@ -10,7 +10,6 @@ const Philosophy = () => (
         <figcaption className="ft-caption">
           <span className="ft-name">Blanaid Hennessy</span>
           <span className="ft-bio">Irish entrepreneur, stylist, and the founder of the fashion brand Folkster.</span>
-          <span className="ft-photo-credit">Photo: Eoin Hennessy</span>
         </figcaption>
       </figure>
       <blockquote className="ft-quote">
