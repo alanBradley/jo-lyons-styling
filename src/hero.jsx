@@ -28,7 +28,7 @@ const HeroFull = ({ onBook }) => (
       </h1>
       <div>
         <p className="hero-lede">
-          I'm Jo. I style bridal parties, editorial shoots, occasion looks, and personal shopping. Always in service of the person wearing them.
+          I'm Jo. I style bridal parties, editorial shoots, occasion looks, and also offer a personal shopping service.
         </p>
         <div className="hero-ctas">
           <button className="btn btn-ghost-light" onClick={() => openWhatsApp('Hi Jo, I\'d like to book a styling consultation. Could we arrange a time to chat?')}>
