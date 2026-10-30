@@ -12,7 +12,7 @@ const HeroFull = ({ onBook }) => (
     <div className="hero-top">
       <div className="hero-locator">
         <span className="bar" />
-        <span>Jo Lyons · Stylist · Nerja, Spain</span>
+        <span>Jo Lyons · Stylist · Dublin, Ireland</span>
       </div>
       <div className="hero-meta" style={{ textAlign: 'right' }}>
         <span>Est. 2018</span>
