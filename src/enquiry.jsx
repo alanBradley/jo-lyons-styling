@@ -99,7 +99,7 @@ const Enquiry = () => {
             </div>
             <div className="field full">
               <label>Where are you?</label>
-              <input type="text" value={form.location} onChange={set('location')} placeholder="Málaga / London / New York / elsewhere" />
+              <input type="text" value={form.location} onChange={set('location')} placeholder="Dublin / London / New York / elsewhere" />
             </div>
             <div className={`field full ${errors.message ? 'has-error' : ''}`}>
               <label>A little more</label>
