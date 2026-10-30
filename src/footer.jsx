@@ -3,7 +3,7 @@ const Footer = ({ onBook }) => (
     <div className="footer-top">
       <div>
         <img src="images/logo-light.png" alt="Jo Lyons Styling" className="footer-brand-logo" />
-        <p className="footer-tag">A stylist with a specialist eye for bridal and bridesmaids. Editorial, occasion, and personal by referral. Based in Nerja, southern Spain. Available internationally.</p>
+        <p className="footer-tag">A stylist with a specialist eye for bridal and bridesmaids. Editorial, occasion, and personal by referral. Based in Dublin, Ireland. Available internationally.</p>
       </div>
       <div className="footer-col">
         <div className="col-title">Services</div>
@@ -15,7 +15,7 @@ const Footer = ({ onBook }) => (
       <div className="footer-col">
         <div className="col-title">Studio</div>
         <p>By appointment</p>
-        <p>Nerja · Málaga · Spain</p>
+        <p>Dublin · Ireland</p>
         <a href="mailto:hello@jolyons.com">hello@jolyons.com</a>
         <a href="tel:+34000000000">Available worldwide</a>
       </div>

@@ -68,7 +68,7 @@ const App = () => {
               <span className="sep">✦</span>
               <span>Specialism · <em>Bridal & Bridesmaids</em></span>
               <span className="sep">✦</span>
-              <span>By appointment · <em>Nerja, Spain & worldwide</em></span>
+              <span>By appointment · <em>Dublin, Ireland & worldwide</em></span>
               <span className="sep">✦</span>
             </React.Fragment>
           ))}
