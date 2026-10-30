@@ -26,7 +26,7 @@ const nextDates = () => {
 
 const TIMES = ['10:00', '11:30', '13:00', '15:00', '16:30', '18:00'];
 
-const LOCATIONS = ['Nerja studio', 'Málaga', 'On location', 'Video call'];
+const LOCATIONS = ['Dublin studio', 'On location', 'Video call'];
 
 const BookingModal = ({ onClose }) => {
   const [step, setStep] = React.useState(0);
